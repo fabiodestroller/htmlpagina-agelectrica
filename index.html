@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ASİL Elektrik Akçay,Edremit toptan ve perakende malzeme satışı,uydu kurulumu,tesisat,arıza bakım tamirat ve tadilat,elektrikli ev aletleri bakım ve onarımı"
+    />
+    <meta
+      name="keywords"
+      content="asil elektrik,edremit elektrik, akçay elektrik,akçay elektrikçi"
+    />
+    <meta name="author" content="Fabio Negron" />
+    <meta name="robots" content="index,follow" />
+    <meta name="rating" content="general" />
+    <meta name="REVISIT-AFTER" content="4 weeks" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a3e10ed635.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Merriweather&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/owl.carousel/dist/assets/owl.carousel.min.css"
+    />
+
+    <title>ZGELECTRICA</title>
+  </head>
+
+  <body>
+    <div class="lamp-container">
+      <img src="img/lamp.png" class="lamp" />
+      <img src="img/light.png" class="light" id="light" />
+    </div>
+
+    <header class="container">
+      <div class="logo">
+        <a href="index.html"
+          ><h1><span>Z</span><span>G</span>ELECTRICA</h1></a
+        >
+      </div>
+
+      <i class="fa-solid fa-ellipsis-vertical" onclick="funcDisplay()"></i>
+      <nav id="openclose">
+        <ul>
+          <li>
+            <a href="index.html">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              INICIO</a
+            >
+          </li>
+          <li>
+            <a href="index.html#services"
+              ><span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+              SERVICIOS</a
+            >
+          </li>
+          <li>
+            <a href="references.html">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+               REFERENCIAS</a
+            >
+          </li>
+          <li>
+            <a href="shares.html">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>TERMINADOS</a
+            >
+          </li>
+
+          <li></li>
+        </ul>
+        <p>On/off</p>
+        <button type="button" onclick="toggleBtn()" id="btn">
+          <span></span>
+        </button>
+      </nav>
+    </header>
+
+    <div class="text-container">
+      <h1>ZAPATA GALLEGO ELECTRICA</h1>
+      <h2>
+        CUENTANOS TU PROYECTO DE CERTIFICACION TENEMOS ASESORES LAS 24H 
+        DEL DIA LISTOS PARA ASESORARTE
+      </h2>
+      <a href="tel:+575314933679"
+        ><span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        LLAMA YA</a
+      >
+    </div>
+
+    <div class="services" id="services">
+      <div class="container-min">
+        <h3><x-sign>SERVICIOS ELECTRICOS</x-sign></h3>
+        <div
+          class="services-grid container-min-1150 container-min-900 container-min-700 container-min-600 container-min-500 container-min-350"
+        >
+          <div class="services-grid-item">
+            <img src="img/malzeme-satisi.jpg" />
+            <h2><x-sign> HERRAMIENTAS Y EQUIPOS ELECTRICOS</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/uydu-kurulumu.jpg" />
+            <h2><x-sign>INSTALACION SATELITAL</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/tesisat.jpg" />
+            <h2><x-sign>INSTALACION</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/elektrik-ariza.jpg" />
+            <h2><x-sign>Falla Mantenimiento Reparación y Modificación</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/ev-aleti.jpg" />
+            <h2><x-sign>Mantenimiento y Reparación de Electrodomésticos</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/havuz-led.jpg" />
+            <h2><x-sign>Sistemas de piscinas Pisos de neón</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/led-tabela.jpg" />
+            <h2><x-sign>Instalación, Reparación y Mantenimiento de Señalización Led</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/ic-dis.jpeg" />
+            <h2><x-sign>Instalación de Iluminación Led Interior y Exterior</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/merkezi-elektrik.jpg" />
+            <h2><x-sign>Instalación Eléctrica Sistema Central</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/kamera-sistemi.jpg" />
+            <h2><x-sign>Instalación del sistema de cámara</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/yeralti-kablo.jpg" />
+            <h2><x-sign>Tendido de cables subterráneos</x-sign></h2>
+          </div>
+          <div class="services-grid-item">
+            <img src="img/hat-cekimi.jpg" />
+            <h2><x-sign>Dibujo lineal</x-sign></h2>
+          </div>
+        </div>
+        <a href="shares.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          PROYECTOS TERMINADOS</a
+        >
+      </div>
+    </div>
+
+    <div class="comments">
+      <div
+        class="container-min container-min-1150 container-min-900 container-min-700 container-min-600 container-min-500 container-min-350"
+      >
+        <div class="comments-header">
+          <h3><x-sign>YORUMLAR</x-sign></h3>
+        </div>
+        <div class="comments-content owl-carousel owl-theme">
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ Yılların tecrübesi şaşırtmadı tesisat işimi en kısa sürede en
+                temiz şekilde halletiler. ❞
+              </h3>
+              <h6>-Salih T.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ Akan yazı led tabela yaptırdım gayet menunum dört dörtlük bir
+                işçilik. ❞
+              </h3>
+              <h6>-Ahmet S.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ Uydu kurulum işim vardı anında ulaşabildim ve en kısa sürede
+                uydu kurulum işimi yaptılar. ❞
+              </h3>
+              <h6>-Tarık D.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ Uzun süredir bozuk olan elektrikli süpürgemi kolayca tamir
+                ettiler.Teşekkürler Asil Elektirik. ❞
+              </h3>
+              <h6>-Ayşe K.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ Sürekli sıkıntı yaşadığımız elektirik arızasını
+                çözdüler.Güvenle çalışabileceğiniz bir esnaf. ❞
+              </h3>
+              <h6>-Ekrem T.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ Fazla söze gerek yok.Akçay'da güvenilir ve kaliteli hizmet. ❞
+              </h3>
+              <h6>-Enes Ö.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ 7 gün 24 saat ulaşabileceğiniz bir esnaf.Yaşadığımız arıza
+                problemlerimize hafta sonu gece gündüz demeden anında müdahale
+                ettiler. ❞
+              </h3>
+              <h6>-Ahmet Y.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ Dükkanları Akçay'da.Aradığım malzemeleri kolayca buldum.Uygun
+                fiyat kaliteli malzeme. ❞
+              </h3>
+              <h6>-Enes Ö.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>
+                ❝ Havuzumuzun içerisine led aydınlatma kurdular.Hayatımıza renk
+                kattılar.Teşekkürler Asil Elektrik. ❞
+              </h3>
+              <h6>-Kaan A.</h6>
+            </div>
+          </div>
+          <div class="comment">
+            <div>
+              <h3>❝ Akçay'da yılların tecrübesi aradığınız kalite. ❞</h3>
+              <h6>-Ali K.</h6>
+            </div>
+          </div>
+        </div>
+        <a href="references.html">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Referanslarımıza Göz Atın</a
+        >
+      </div>
+    </div>
+
+    <div class="location">
+      <div class="container-min">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074.8925792197138!2d26.9242237!3d39.58457129999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14b0b98d98952003%3A0x52f1e45dc1648b0a!2sASEL%20Bir%20Elektrik%20Toptan%20ve%20Perakende%20Malzeme%20Sat%C4%B1%C5%9F%C4%B1!5e0!3m2!1str!2str!4v1660361305054!5m2!1str!2str"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <img src="img/location.jpg" />
+      </div>
+    </div>
+
+    <footer class="container">
+      <div class="container-min">
+        <div class="worktimes">
+          <h5>Çalışma Saatlerimiz</h5>
+          <p>Pzt: 24 Saat Açık</p>
+          <p>Sal: 24 Saat Açık</p>
+          <p>Çar: 24 Saat Açık</p>
+          <p>Per: 24 Saat Açık</p>
+          <p>Cum: 24 Saat Açık</p>
+          <p>Cmt: 24 Saat Açık</p>
+          <p>Paz: 24 Saat Açık</p>
+        </div>
+        <div class="contact">
+          <h5>Bize Ulaşın</h5>
+          <a href="tel:0531 493 3679"
+            ><i class="fa-solid fa-phone"></i> 0531 493 36 79</a
+          >
+          <a href="tel:0535 564 6746"
+            ><i class="fa-solid fa-phone"></i> 0535 564 67 46</a
+          >
+          <a
+            href="https://www.google.com/maps/place/ASEL+Bir+Elektrik+Toptan+ve+Perakende+Malzeme+Sat%C4%B1%C5%9F%C4%B1/@39.5845713,26.9242237,17z/data=!3m1!4b1!4m5!3m4!1s0x14b0b98d98952003:0x52f1e45dc1648b0a!8m2!3d39.5845713!4d26.9242237"
+            target="_blank"
+            ><i class="fa-solid fa-location-arrow"></i> Cumhuriyet Mah. 110.Sk.
+            No.:5/G Akçay - Edremit / Balıkesir</a
+          >
+        </div>
+        <div class="communication">
+          <h5>Erişim</h5>
+          <a href="index.html">Ana Sayfa</a>
+          <a href="index.html#services">Hizmetlerimiz</a>
+          <a href="references.html">Referanslarımız</a>
+          <a href="shares.html">Paylaşımlarımız</a>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      style="
+        display: block !important;
+        color: #444;
+        background-color: white;
+        text-align: center;
+        padding: 1rem;
+        font-size: 1.3rem;
+      "
+    >
+      <article>
+        <div class="h6">
+          Bu websitesini beğendiniz mi? Kendinize veya firmanıza özel websitesi
+          yaptırmak için hemen ulaşın
+          <a href="tel:0539 451 4418" style="color: #444; font-size: 1.3rem"
+            ><i
+              class="fa-solid fa-square-phone"
+              style="color: rgb(15, 157, 73)"
+            ></i>
+            0539 451 44 18
+          </a>
+          <a href="https://wa.me/905394514418?text=Merhaba">
+            <i
+              class="fa-brands fa-square-whatsapp"
+              style="color: rgb(44, 197, 78)"
+            ></i>
+            0539 451 44 18</a
+          >
+        </div>
+      </article>
+    </div>
+
+    <script>
+      //lamp and light script
+      var btn = document.getElementById("btn");
+      var light = document.getElementById("light");
+
+      function toggleBtn() {
+        btn.classList.toggle("openn");
+        light.classList.toggle("onn");
+      }
+
+      //neon head
+      const signs = document.querySelectorAll("x-sign");
+      const randomIn = (min, max) =>
+        Math.floor(Math.random() * (max - min + 1) + min);
+
+      const mixupInterval = (el) => {
+        const ms = randomIn(2000, 4000);
+        el.style.setProperty("--interval", `${ms}ms`);
+      };
+
+      signs.forEach((el) => {
+        mixupInterval(el);
+        el.addEventListener("webkitAnimationIteration", () => {
+          mixupInterval(el);
+        });
+      });
+
+      //click menubar open-close
+      function funcDisplay() {
+        var element = document.getElementById("openclose");
+        element.classList.toggle("display");
+      }
+    </script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.js"></script>
+    <script>
+      $(".owl-carousel").owlCarousel({
+        loop: true,
+        margin: 50,
+
+        autoplay: true,
+        autoplayTimeout: 5000,
+        responsive: {
+          0: {
+            items: 1,
+          },
+          968: {
+            items: 2,
+          },
+          1200: {
+            items: 3,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
